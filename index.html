@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Kue Kesukaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #5a270e;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .cake-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .cake-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            transition: transform 0.2s;
+            text-align: center;
+        }
+
+        .cake-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .cake-item h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .cake-item p {
+            color: #666;
+        }
+
+        .cake-item:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #5a270e;
+            color: beige;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daftar Kue Kesukaan</h1>
+    </header>
+    <main>
+        <section class="cake-list">
+            <article class="cake-item">
+                <img src="kue coklat.jpg" alt="kue coklat">
+                <h2>Kue Coklat</h2>
+                <p>Lezat dan manis, kue coklat adalah favorit semua orang!</p>
+            </article>
+            <article class="cake-item">
+                <img src="kue keju.jpg" alt="kue keju">
+                <h2>Kue Keju</h2>
+                <p>Kue lembut dengan lapisan keju yang creamy.</p>
+            </article>
+            <article class="cake-item">
+                <img src="redvelvet.jpg" alt="redvelvet">
+                <h2>Kue Red Velvet</h2>
+                <p>Kue merah yang lembut dengan krim keju yang lezat.</p>
+            </article>
+            <article class="cake-item">
+                <img src="kue pandan.jpg" alt="kue pandan">
+                <h2>Kue Pandan</h2>
+                <p>Kue beraroma pandan yang segar dan nikmat.</p>
+            </article>
+            <article class="cake-item">
+                <img src="kue lapis.jpg" alt="kue lapis">
+                <h2>Kue Lapis</h2>
+                <p>Kue tradisional dengan lapisan warna-warni yang menggoda.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Daftar Kue Kesukaan</p>
+    </footer>
+</body>
+</html>
